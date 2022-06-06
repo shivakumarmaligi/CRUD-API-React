@@ -1,0 +1,176 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: whitesmoke; */
+}
+body {
+  width: 90%;
+  background-color: white;
+
+  margin: 0 auto;
+}
+
+#navSection {
+  height: 70px;
+  width: 100%;
+  background-color: cadetblue;
+  border-bottom: 3px solid tomato;
+}
+
+#navSection article {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoBlock {
+  width: 50%;
+  margin-left: 200px;
+  align-items: center;
+  display: flex;
+}
+
+.logoBlock a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: tomato;
+  font-weight: 600;
+  text-shadow: 2px 2px 0 2px gold;
+}
+
+.menuBlock ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuBlock ul li {
+  flex-basis: 48%;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 100px;
+  /* background-color: tomato; */
+}
+
+.menuBlock ul li a {
+  text-decoration: none;
+  background-color: tomato;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+#formSection {
+  background-color: aquamarine;
+  height: 45rem;
+  align-items: center;
+  padding-top: 140px;
+
+  /* width: 80%; */
+}
+
+#formSection article {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: azure;
+  border: 2px solid tomato;
+}
+
+#formSection article form {
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.formgrp input {
+  margin: auto;
+  width: 90%;
+  height: 40px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid tomato;
+  border-radius: 20px;
+}
+
+.formgrp select {
+  margin: auto;
+  width: 90%;
+  height: 60px;
+  margin: 20px;
+
+  font-size: 1rem;
+  border: 2px solid tomato;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.formgrp select::-webkit-scrollbar {
+  display: none;
+}
+.formgrp button {
+  margin: auto;
+  width: 90%;
+  height: 40px;
+  border: 2px solid tomato;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: tomato;
+  font-weight: bold;
+  color: cadetblue;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+
+.formgrp button:hover {
+  color: tomato;
+  background-color: cadetblue;
+  transition: 0.6s;
+}
+
+#homeSection {
+  background-color: aquamarine;
+  height: 45rem;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#homeSection article {
+  width: 80%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: azure;
+  border: 2px solid tomato;
+}
+
+#form {
+  background-color: azure;
+  width: 100%;
+  padding: 20px;
+  /* border: 2px solid tomato; */
+  border-radius: 20px;
+  border-collapse: collapse;
+}
+
+#form thead th {
+  background-color: tomato;
+  border: 2px solid tomato;
+}
+
+#form tbody td {
+  text-align: center;
+  font-size: 1.5rem;
+  border: 2px solid tomato;
+}
+
+#form1 h2 {
+  color: tomato;
+  margin-left: 20px;
+  border-bottom: 2px solid tomato;
+  margin-right: 25px;
+}
